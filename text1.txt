@@ -4,7 +4,7 @@ public class input{
         Scanner scan =new Scannen(System.in);
         String name =scan.nextLine();
         int age=scan.nextInt();
-        System.out.print("my name is"name);
-        System.out.print("my age is"age);
+        System.out.print("my name is"+name);
+        System.out.print("my age is"+age);
     }
 }
