@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class program {
     public static void main(String[] args) {
         Scanner scan= new Scanner(System.in);
@@ -11,4 +11,13 @@ public class program {
         System.out.println("my department is " + department);
     }
     
+}*/
+
+public class program{
+    public static void main (String args[]){
+    int a = 15;
+    int b = 60;
+    int c=a+b;
+    System.out.print(c);
+    }
 }
