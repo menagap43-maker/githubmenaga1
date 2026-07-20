@@ -30,7 +30,7 @@ System.out.print(d/e);
 }
 }*/
 
-import java.util.Scanner;
+/* 4.import java.util.Scanner;
 public class input{
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
@@ -41,5 +41,14 @@ public class input{
         System.out.println("my name is: " + name);
         System.out.println("my score is: " + score/10);
         System.out.println("my department is: " + department);
+    }
+}*/
+
+public class input{
+    public static void main (String args[]){
+    int a = 15;
+    int b = 60;
+    int c=a+b;
+    System.out.print(c);
     }
 }
