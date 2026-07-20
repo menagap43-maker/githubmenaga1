@@ -44,11 +44,26 @@ public class input{
     }
 }*/
 
-public class input{
+/* 5. public class input{
     public static void main (String args[]){
     int a = 15;
     int b = 60;
     int c=a+b;
     System.out.print(c);
+    }*/
+
+//6. how to swap the two numbers:
+
+public class input {
+    public static void main(String[] args) {
+    int a = 10;
+    int b = 20;
+    int temp ;
+    temp=a;
+    a=b;
+    b=temp;
+    System.out.println(a);
+    System.out.println(b);
     }
 }
+
