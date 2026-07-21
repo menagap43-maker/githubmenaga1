@@ -54,7 +54,7 @@ public class input{
 
 //6. how to swap the two numbers:
 
-public class input {
+/*public class input {
     public static void main(String[] args) {
     int a = 10;
     int b = 20;
@@ -65,5 +65,15 @@ public class input {
     System.out.println(a);
     System.out.println(b);
     }
-}
+}*/
 
+//7.get input 2table using for loop
+import java.util.Scanner;
+public class input{
+    public static void main(String args[]){
+        Scanner scan = new Scanner(System.in);
+        for(int i=1;i<=10;i=i+1)
+            System.out.println(i+"x2="+i*2);
+    }
+       
+}
